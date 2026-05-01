@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Submarine AI Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">OceanMind Submarine</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Smart Underwater Exploration</span>
+          <h1>AI-Powered Autonomous Submarine System</h1>
+          <p>Delivering intelligent ocean monitoring, predictive navigation, and secure deep-sea research with a futuristic, responsive platform.</p>
+          <div class="hero-actions">
+            <a href="#features" class="btn btn-primary">Explore Features</a>
+            <a href="#contact" class="btn btn-secondary">Request Demo</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-card">
+            <div class="visual-wave"></div>
+            <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=900&q=80" alt="Submarine technology" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container section-grid">
+        <div class="section-text">
+          <span class="section-label">About the Project</span>
+          <h2>Advanced AI Submarine for Smart Ocean Missions</h2>
+          <p>The OceanMind Submarine project brings together modern marine robotics, artificial intelligence, and immersive data visualization to support ocean science, environmental monitoring, and autonomous mission control.</p>
+          <ul class="about-list">
+            <li>Real-time environmental sensing and adaptive control.</li>
+            <li>Automatic obstacle avoidance using computer vision.</li>
+            <li>Cloud-connected telemetry for remote mission tracking.</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <div class="info-block">
+            <h3>AI Navigation</h3>
+            <p>Smart trajectory planning and self-healing guidance for deep-water exploration.</p>
+          </div>
+          <div class="info-block">
+            <h3>Ocean Intelligence</h3>
+            <p>Environmental analytics and predictive insights from onboard sensors.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section features-section">
+      <div class="container">
+        <span class="section-label">Core Capabilities</span>
+        <h2>Innovative Features Built for the Deep</h2>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">🧭</div>
+            <h3>Autonomous Navigation</h3>
+            <p>Smart routing avoids hazards and maximizes mission efficiency.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">📡</div>
+            <h3>Live Telemetry</h3>
+            <p>Stream sensor data and mission progress in real time.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🤖</div>
+            <h3>AI Decision Engine</h3>
+            <p>Adaptive behaviours respond instantly to ocean conditions.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🔋</div>
+            <h3>Energy Smart</h3>
+            <p>Efficient power management extends underwater endurance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <span class="section-label">Project Gallery</span>
+        <h2>See the Submarine in Action</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Underwater drone" /></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1515601917128- orHxm70f2Qg?auto=format&fit=crop&w=800&q=80" alt="Ocean technology" /></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1524492412937-4961b2f92032?auto=format&fit=crop&w=800&q=80" alt="Deep sea research" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="section-label">Contact Us</span>
+          <h2>Start Your Underwater Innovation Journey</h2>
+          <p>Share your project goals, and our team will connect with you to explore AI submarine systems, custom sensors, and mission design.</p>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your mission" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 OceanMind Submarine Initiative. Designed for intelligent sea exploration.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
